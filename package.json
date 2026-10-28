@@ -1,0 +1,19 @@
+{
+  "name": "ledger-api",
+  "version": "1.0.0",
+  "description": "Transaction ledger API: accounts, credits, debits, history and transfers",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}
